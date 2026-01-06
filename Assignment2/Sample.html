@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Insurance HTML Tags Assignment</title>
+
+<!-- External CSS Link -->
+<link rel="stylesheet" href="styles.css">
+
+<!-- Internal CSS -->
+<style>
+/* Basic Internal Styles for Learning */
+.highlight-section {
+  background-color: #ffffcc;
+  border: 1px solid #ffcc00;
+}
+
+.important-text {
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.info-box {
+  background-color: #e3f2fd;
+  border: 1px solid #2196f3;
+  padding: 10px;
+}
+</style>
+</head>
+
+<body id="top">
+
+<header>
+<h1>Insurance Management – HTML Tags Assignment</h1>
+
+<nav>
+<a href="#text">Text</a>
+<a href="#list">Lists</a>
+<a href="#table">Table</a>
+<a href="#form">Form</a>
+<a href="#media">Media</a>
+<a href="#imagemap">Image Map</a>
+
+</nav>
+</header>
+
+<main>
+
+<section id="text">
+<h2>Text Formatting Tags</h2>
+<div class="info-box">
+<p>This portal provides <strong>insurance services</strong> for <em>customers</em>.</p>
+<p style="color: #1976d2; font-weight: bold; padding: 10px; background-color: #f0f4ff; border-radius: 5px;">Policy status is <mark>Active</mark></p>
+<p style="font-size: 1.05em; line-height: 1.8;">Premium Amount: ₹5000<sup style="color: #e74c3c; font-weight: bold;">*</sup></p>
+<p>Coverage includes H<sub>2</sub>O damage</p>
+</div>
+<hr style="border: 2px solid #3498db; margin: 20px 0;">
+<p style="background-color: #fff3cd; padding: 10px; border-left: 4px solid #ffc107; border-radius: 4px;">
+<abbr title="Insurance Regulatory and Development Authority">IRDA</abbr>
+</p>
+<address style="background-color: #e8f5e9; padding: 15px; border-left: 4px solid #4caf50;">Insurance Office, Hyderabad</address>
+<time datetime="2026-01-06" style="color: #666; font-size: 0.95em;">Policy Updated: Jan 6, 2026</time>
+<br><br>
+<a href="#top">Back to Top</a>
+</section>
+
+<section id="list">
+<h2>Insurance Types</h2>
+
+<ul class="feature-list">
+<li>Health Insurance</li>
+<li>Life Insurance</li>
+</ul>
+
+<ol style="background-color: white; padding: 15px 25px; border-radius: 5px; box-shadow: 0 2px 4px rgba(0,0,0,0.1);">
+<li><span style="color: #d32f2f; font-weight: bold;">Policy Registration</span></li>
+<li><span style="color: #d32f2f; font-weight: bold;">Premium Payment</span></li>
+<li><span style="color: #d32f2f; font-weight: bold;">Claim Process</span></li>
+</ol>
+
+<dl style="background-color: #f5f5f5; padding: 15px; margin-top: 15px; border-radius: 5px;">
+<dt style="background-color: #3498db; color: white; padding: 8px; margin-top: 5px; border-radius: 3px;">Premium</dt>
+<dd style="padding-left: 15px; padding-top: 8px;">Amount paid yearly</dd>
+<dt style="background-color: #3498db; color: white; padding: 8px; margin-top: 5px; border-radius: 3px;">Claim</dt>
+<dd style="padding-left: 15px; padding-top: 8px;">Request for coverage</dd>
+</dl>
+
+<a href="#top">Back to Top</a>
+</section>
+
+<section id="table">
+<h2>Policy Details</h2>
+
+<table>
+<caption>Customer Policies</caption>
+<tr>
+<th>Policy ID</th>
+<th>Customer</th>
+<th>Status</th>
+</tr>
+<tr>
+<td>P101</td>
+<td>Ravi</td>
+<td>Active</td>
+</tr>
+<tr>
+<td>P102</td>
+<td>Anita</td>
+<td>Expired</td>
+</tr>
+</table>
+
+<a href="#top">Back to Top</a>
+</section>
+
+<section id="form">
+<h2>Insurance Registration Form</h2>
+
+<form style="background-color: white; padding: 20px; border-radius: 8px; border: 2px solid #3498db;">
+<label style="color: #2c3e50; font-weight: bold;">Name:</label>
+<input type="text" style="border: 2px solid #bdc3c7; padding: 10px; border-radius: 4px; width: 100%; margin-top: 5px;"><br><br>
+
+<label style="color: #2c3e50; font-weight: bold;">Email:</label>
+<input type="email" style="border: 2px solid #bdc3c7; padding: 10px; border-radius: 4px; width: 100%; margin-top: 5px;"><br><br>
+
+<label style="color: #2c3e50; font-weight: bold;">Policy Type:</label>
+<select style="border: 2px solid #bdc3c7; padding: 10px; border-radius: 4px; width: 100%; margin-top: 5px;">
+<option>Health</option>
+<option>Life</option>
+</select><br><br>
+<label style="color: #2c3e50; font-weight: bold;">Policy Start Date:</label>
+<input type="date" style="border: 2px solid #bdc3c7; padding: 10px; border-radius: 4px; width: 100%; margin-top: 5px;"><br><br>
+
+<label style="color: #2c3e50; font-weight: bold;">Address:</label>
+<textarea rows="3" cols="30" style="border: 2px solid #bdc3c7; padding: 10px; border-radius: 4px; width: 100%; margin-top: 5px; font-family: Arial, sans-serif;">Enter Address</textarea><br><br>
+
+<button type="submit" style="background-color: #27ae60; color: white; padding: 12px 25px; border-radius: 4px; cursor: pointer; font-weight: bold;">Apply</button>
+<button type="reset" style="background-color: #e74c3c; color: white; padding: 12px 25px; border-radius: 4px; cursor: pointer; font-weight: bold;">Clear</button>
+</form>
+
+<a href="#top">Back to Top</a>
+</section>
+
+<section id="media">
+
+<!--<img src="./Images/Shapes.png"><br><br>-->
+<img src="./Images/Insurance.png" alt="Insurance Image" width="400"><br><br>
+
+<a href="#top">Back to Top</a>
+</section>
+
+<section id="imagemap">
+<h2>Interactive India Map</h2>
+<p>Click on different regions to explore Indian states!</p>
+
+<div style="text-align: center; margin: 20px 0;">
+<img src="./Images/Ind.png"
+     alt="India Map" 
+     usemap="#indiaMap" 
+     width="600" 
+     height="700"
+     style="border: 2px solid #3498db; border-radius: 10px;">
+
+<map name="indiaMap">
+<!-- Rectangle: North Region (Delhi, Punjab, Haryana area) -->
+<area shape="rect" 
+      coords="230,100,370,200" 
+      href="#north" 
+      alt="North India" 
+      title="North India Region"
+      onclick="showRegionInfo('North India', 'Includes Delhi, Punjab, Haryana, Himachal Pradesh - Known for rich culture and historical monuments'); return false;">
+
+<!-- Circle: Central Region (Madhya Pradesh area) -->
+<area shape="circle" 
+      coords="300,350,70" 
+      href="#central" 
+      alt="Central India" 
+      title="Central India"
+      onclick="showRegionInfo('Central India', 'Includes Madhya Pradesh, Chhattisgarh - Heart of India with diverse wildlife'); return false;">
+
+<!-- Polygon: Western Region (Gujarat, Maharashtra) -->
+<area shape="poly" 
+      coords="150,250,200,300,180,400,160,450,140,420,130,380,140,330,150,280" 
+      href="#west" 
+      alt="Western India" 
+      title="Western India"
+      onclick="showRegionInfo('Western India', 'Includes Gujarat, Maharashtra, Goa - Industrial hub and coastal beauty'); return false;">
+
+<!-- Rectangle: Eastern Region (West Bengal, Bihar area) -->
+<area shape="rect" 
+      coords="380,200,480,350" 
+      href="#east" 
+      alt="Eastern India" 
+      title="Eastern India"
+      onclick="showRegionInfo('Eastern India', 'Includes West Bengal, Bihar, Odisha - Rich in culture and traditions'); return false;">
+
+<!-- Circle: Southern Region (Tamil Nadu, Karnataka area) -->
+<area shape="circle" 
+      coords="280,550,80" 
+      href="#south" 
+      alt="South India" 
+      title="South India"
+      onclick="showRegionInfo('South India', 'Includes Tamil Nadu, Karnataka, Kerala, Andhra Pradesh - Known for temples, IT industry, and natural beauty'); return false;">
+</map>
+</div>
+
+<div id="regionInfo" style="margin: 20px auto; padding: 15px; max-width: 600px; background-color: #e3f2fd; border-radius: 8px; box-shadow: 0 2px 5px rgba(0,0,0,0.1);">
+<h3>Region Information</h3>
+<p>Click on any region on the India map to learn more!</p>
+</div>
+
+<script>
+function showRegionInfo(region, description) {
+    const infoBox = document.getElementById('regionInfo');
+    infoBox.innerHTML = '<h3>' + region + '</h3><p>' + description + '</p>';
+    infoBox.style.backgroundColor = '#c8e6c9';
+}
+</script>
+
+<a href="#top">Back to Top</a>
+</section>
+
+<br><br>
+<a href="#top">Back to Top</a>
+</section>
+
+</main>
+
+<footer>
+<p>© 2026 Insurance HTML Assignment</p>
+</footer>
+
+</body>
+</html>
