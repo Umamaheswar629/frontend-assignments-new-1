@@ -1,0 +1,122 @@
+InsuranceDB
+To create DB
+create database InsuranceDB
+Dml crud ops-Insert/update/delete/select
+
+Select--what you want to see
+select 10,select 10+5,select productId+10 from table, select 'ram'
+
+From--from which you are retrieving the data like source name
+select * from customers;
+
+Where--condition,col op value
+
+
+Order by--must by followed by col(s)name sort criteria (ASC(default)/DESC)
+we can able to use the order by without using of where
+select * from emp
+order by city,salary desc;
+this multiple key sort  refers to first it will sort acc to city and similar city will be sorted acc to salary
+
+Group by--Always followed by group criteria(aggeration methods)
+select * from emp group by city--wrong
+select count(*) from emp group by city
+
+Having---Clause is used to apply condition over group
+
+
+Limiting results
+select top(5) products from prod;
+OFFSET-Skip rows
+FETCH NEXT --return next m rows only
+
+Fully Qualified Names
+
+Between --
+select * from emp where salary>=2000 and salary <=50000
+select * from emp where salary  between 20000 and 50000
+
+select * from emp where city='Delhi or city='mumbai';
+select * from emp where city in ('Delhi','Mumbai');
+
+
+wildcards--
+
+select * from emp where empname='A%;--it checks exact value'A%' in table
+so to avoid that
+select * from emp where empname like 'A%';
+2.underscore '(s__)';
+'[ej%]'---the first letter can be e or j
+
+
+concat--
+select vend_name+'('+vend_country +')'
+from vendors order by vend-name;
+--
+Trimming function --Rtrim()-right spaces,Ltrim() only spaces can be trimmed through the trimming functions
+select Rtrim()
+any commands starts executing from inner side
+
+Alias(as) is like to give the name for display like output format not for changing the structure of the schema
+select sm(salary) as empsalary  from emp;
+
+Understanding function:
+Text Functions--format change like functions--Charindex(),left(),len(),str(),substr() etc--
+Numeric Function--Abs(),squrt()
+(*)Date and time Functions--DateAdd(),DateDiff(),DateName(),DatePart()
+System Functions-@@identity
+
+Using Aggregating Functions:
+
+
+Joins----
+can be done using aribitory condition
+and join keyword
+
+
+
+region--regionId(pk),regionName
+dept-deptID(pk),deptname,regionId(fk);
+emp-empid(pk),empname,salary,deptid(fk),mgrid(recursive fk)
+
+
+1.diplay emid,empname,deptname,region name,mgrname,salary
+2.disply deptname,regionname
+select * from dept,region --it works background like cartesian product
+select dept.deptid,dept.deptname,region.regionname from dept,region where dept.regionid=region.regionid---to avoid the cartesian product
+using the joins instead of arbitory condtions:
+select * from dept join region on dept.regionID=region.regionID
+
+on delete cascade day-2 assignment 4.15 question
+
+
+
+Day-3(sub query)---------------------
+
+
+set operators-basically combining the results from 2/more queries
+union-
+except and intersect
+case---
+merge in sql:
+rollup in sql server-
+cube --detail rows=all sub totals+grand total
+grouping sets---
+
+
+module 4.4 practical project assignment
+
+
+day-4------
+module 4.4 practical project assignment
+
+view-compiled sql query create view view_name as  select */required col from tabel_name--it is physical object but not the real data we can see view section in database but it not actually stored
+When a new table is created from an existing table the new and old tables are independent themselves that is the changes of one table will not be reflected into the other table whereas if a view is created based on a table any changes that are performed on the table reflects into the view and any changes performed on the view reflected in the table also.
+
+dotnet tutorials.net--best resource
+
+
+
+
+ 		Day-5 NoSQL mongoDB
+week-1 sql commands
