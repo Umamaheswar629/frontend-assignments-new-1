@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HARTFORD STORE - E-Commerce Website</title>
+    <!-- Tailwind CSS CDN Link - adds all Tailwind utility classes -->
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Navigation Bar - bg-blue-600 = blue background, text-white = white text -->
+    <header class="bg-blue-600 text-white p-4 shadow-lg">
+        <div class="container mx-auto flex justify-between items-center">
+            <!-- Store Name -->
+            <h1 class="text-3xl font-bold">HARTFORD STORE</h1>
+            <!-- Navigation Links - flex = horizontal layout, gap-6 = space between items -->
+            <nav>
+                <ul class="flex gap-6">
+                    <li><a href="#home" class="hover:text-yellow-300">Home</a></li>
+                    <li><a href="#products" class="hover:text-yellow-300">Products</a></li>
+                    <li><a href="#cart" class="hover:text-yellow-300">Cart</a></li>
+                    <li><a href="#contact" class="hover:text-yellow-300">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero/Welcome Section - py-16 = padding top and bottom -->
+    <section id="home" class="bg-blue-50 py-16">
+        <div class="container mx-auto px-6 text-center">
+            <!-- text-4xl = large text, mb-4 = margin bottom -->
+            <h2 class="text-4xl font-bold text-gray-800 mb-4">Welcome to HARTFORD STORE</h2>
+            <p class="text-xl text-gray-600 mb-8">Your trusted shop for electronics and gadgets</p>
+            <!-- Button - rounded-lg = rounded corners, px-8 py-3 = padding -->
+            <a href="#products" class="bg-blue-600 text-white px-8 py-3 rounded-lg hover:bg-blue-700">
+                Shop Now
+            </a>
+        </div>
+    </section>
+
+    <!-- Products Section - grid = creates a grid layout -->
+    <section id="products" class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <!-- Section Heading -->
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Our Products</h2>
+            
+            <!-- Product Grid - grid-cols-4 = 4 columns, gap-6 = space between items -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- Product Card 1 - bg-white = white background, rounded-lg = rounded corners -->
+                <div class="bg-white border-2 border-gray-200 rounded-lg p-4 shadow-md hover:shadow-xl">
+                    <!-- Product Image -->
+                    <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400&h=300&fit=crop" 
+                         alt="Mobile Phone" 
+                         class="w-full h-48 object-cover rounded-lg mb-4">
+                    <!-- Product Name -->
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Premium Smartphone</h3>
+                    <!-- Product Description -->
+                    <p class="text-gray-600 mb-3">Latest flagship phone</p>
+                    <!-- Rating Stars - text-yellow-400 = yellow color for stars -->
+                    <div class="text-yellow-400 mb-3">★★★★★</div>
+                    <!-- Price -->
+                    <p class="text-2xl font-bold text-blue-600 mb-4">₹15,000</p>
+                    <!-- Add to Cart Button -->
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <!-- Product Card 2 -->
+                <div class="bg-white border-2 border-gray-200 rounded-lg p-4 shadow-md hover:shadow-xl">
+                    <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400&h=300&fit=crop" 
+                         alt="Laptop" 
+                         class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Gaming Laptop</h3>
+                    <p class="text-gray-600 mb-3">High-performance laptop</p>
+                    <div class="text-yellow-400 mb-3">★★★★☆</div>
+                    <p class="text-2xl font-bold text-blue-600 mb-4">₹50,000</p>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <!-- Product Card 3 -->
+                <div class="bg-white border-2 border-gray-200 rounded-lg p-4 shadow-md hover:shadow-xl">
+                    <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400&h=300&fit=crop" 
+                         alt="Headphones" 
+                         class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Wireless Headphones</h3>
+                    <p class="text-gray-600 mb-3">Noise cancellation</p>
+                    <div class="text-yellow-400 mb-3">★★★★★</div>
+                    <p class="text-2xl font-bold text-blue-600 mb-4">₹2,000</p>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+                        Add to Cart
+                    </button>
+                </div>
+
+                <!-- Product Card 4 -->
+                <div class="bg-white border-2 border-gray-200 rounded-lg p-4 shadow-md hover:shadow-xl">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=400&h=300&fit=crop" 
+                         alt="Smart Watch" 
+                         class="w-full h-48 object-cover rounded-lg mb-4">
+                    <h3 class="text-xl font-bold text-gray-800 mb-2">Smart Watch Pro</h3>
+                    <p class="text-gray-600 mb-3">Track your fitness</p>
+                    <div class="text-yellow-400 mb-3">★★★★☆</div>
+                    <p class="text-2xl font-bold text-blue-600 mb-4">₹4,000</p>
+                    <button class="w-full bg-blue-600 text-white py-2 rounded-lg hover:bg-blue-700">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Shopping Cart Section -->
+    <section id="cart" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <!-- Section Heading -->
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Shopping Cart</h2>
+            
+            <!-- Cart Table - max-w-4xl = maximum width, mx-auto = center it -->
+            <div class="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-6">
+                <!-- Table for cart items -->
+                <table class="w-full">
+                    <!-- Table Header - bg-blue-600 = blue background -->
+                    <thead>
+                        <tr class="bg-blue-600 text-white">
+                            <th class="px-4 py-3 text-left">Product</th>
+                            <th class="px-4 py-3 text-center">Quantity</th>
+                            <th class="px-4 py-3 text-right">Price</th>
+                        </tr>
+                    </thead>
+                    <!-- Table Body -->
+                    <tbody>
+                        <!-- Cart Item 1 -->
+                        <tr class="border-b">
+                            <td class="px-4 py-4">Premium Smartphone</td>
+                            <td class="px-4 py-4 text-center">1</td>
+                            <td class="px-4 py-4 text-right font-bold text-blue-600">₹15,000</td>
+                        </tr>
+                        <!-- Cart Item 2 -->
+                        <tr class="border-b">
+                            <td class="px-4 py-4">Wireless Headphones</td>
+                            <td class="px-4 py-4 text-center">2</td>
+                            <td class="px-4 py-4 text-right font-bold text-blue-600">₹4,000</td>
+                        </tr>
+                    </tbody>
+                </table>
+                
+                <!-- Cart Total -->
+                <div class="mt-6 border-t pt-4">
+                    <div class="flex justify-between items-center mb-2">
+                        <span class="text-lg">Subtotal:</span>
+                        <span class="text-lg">₹19,000</span>
+                    </div>
+                    <div class="flex justify-between items-center mb-4">
+                        <span class="text-lg">Shipping:</span>
+                        <span class="text-lg text-green-600">Free</span>
+                    </div>
+                    <div class="flex justify-between items-center border-t pt-4 mb-6">
+                        <span class="text-2xl font-bold">Total:</span>
+                        <span class="text-2xl font-bold text-blue-600">₹19,000</span>
+                    </div>
+                    <!-- Checkout Button -->
+                    <button class="w-full bg-blue-600 text-white py-3 rounded-lg font-bold hover:bg-blue-700">
+                        Proceed to Checkout
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-12 bg-white">
+        <div class="container mx-auto px-6">
+            <!-- Section Heading -->
+            <h2 class="text-3xl font-bold text-center text-gray-800 mb-8">Contact Us</h2>
+            
+            <!-- Contact Form - max-w-2xl = maximum width -->
+            <div class="max-w-2xl mx-auto bg-white border-2 border-gray-200 rounded-lg shadow-lg p-8">
+                <form>
+                    <!-- Name Field - mb-6 = margin bottom for spacing -->
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-bold mb-2">Full Name</label>
+                        <input type="text" 
+                               class="w-full border-2 border-gray-300 rounded-lg px-4 py-2 focus:border-blue-600" 
+                               placeholder="Enter your name" 
+                               required>
+                    </div>
+                    
+                    <!-- Email Field -->
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-bold mb-2">Email Address</label>
+                        <input type="email" 
+                               class="w-full border-2 border-gray-300 rounded-lg px-4 py-2 focus:border-blue-600" 
+                               placeholder="your@email.com" 
+                               required>
+                    </div>
+                    
+                    <!-- Phone Field -->
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-bold mb-2">Phone Number</label>
+                        <input type="tel" 
+                               class="w-full border-2 border-gray-300 rounded-lg px-4 py-2 focus:border-blue-600" 
+                               placeholder="+91 98765 43210">
+                    </div>
+                    
+                    <!-- Message Field -->
+                    <div class="mb-6">
+                        <label class="block text-gray-700 font-bold mb-2">Message</label>
+                        <textarea rows="5" 
+                                  class="w-full border-2 border-gray-300 rounded-lg px-4 py-2 focus:border-blue-600" 
+                                  placeholder="Your message here..." 
+                                  required></textarea>
+                    </div>
+                    
+                    <!-- Submit Button -->
+                    <button type="submit" 
+                            class="w-full bg-blue-600 text-white py-3 rounded-lg font-bold hover:bg-blue-700">
+                        Send Message
+                    </button>
+                </form>
+                
+                <!-- Contact Information -->
+                <div class="mt-8 pt-8 border-t">
+                    <h3 class="font-bold text-xl mb-4">Store Information</h3>
+                    <p class="text-gray-600 mb-2">📍 123 Business Street, Mumbai, India</p>
+                    <p class="text-gray-600 mb-2">📧 support@hartfordstore.com</p>
+                    <p class="text-gray-600">📞 +91 98765 43210</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer - bg-gray-800 = dark gray background -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <h3 class="text-2xl font-bold mb-4">HARTFORD STORE</h3>
+            <p class="text-gray-400 mb-4">Your trusted shop for electronics</p>
+            <!-- Footer Links -->
+            <div class="flex justify-center gap-6 mb-4">
+                <a href="#home" class="hover:text-blue-400">Home</a>
+                <a href="#products" class="hover:text-blue-400">Products</a>
+                <a href="#cart" class="hover:text-blue-400">Cart</a>
+                <a href="#contact" class="hover:text-blue-400">Contact</a>
+            </div>
+            <p class="text-gray-500">© 2026 HARTFORD STORE. Made with Tailwind CSS</p>
+        </div>
+    </footer>
+
+</body>
+</html>
