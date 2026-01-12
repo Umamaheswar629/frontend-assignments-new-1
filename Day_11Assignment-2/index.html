@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JavaScript Events</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 p-10">
+
+    <h1 class="text-2xl font-bold text-center mb-8">
+        JavaScript Events Assignment
+    </h1>
+
+    <div id="paymentSection" class="bg-white p-6 mb-6 rounded-lg shadow cursor-pointer">
+        <h2 class="font-semibold mb-3">Event Bubbling</h2>
+        <button id="payBtn" class="bg-blue-500 text-white px-4 py-2 rounded">
+            Pay Premium
+        </button>
+    </div>
+
+    <div id="policyContainer" class="bg-white p-6 mb-6 rounded-lg shadow cursor-pointer">
+        <h2 class="font-semibold mb-3">Event Capturing</h2>
+        <button id="viewPolicy" class="bg-green-500 text-white px-4 py-2 rounded">
+            View Policy
+        </button>
+    </div>
+
+    <div id="policyCard" class="bg-white p-6 mb-6 rounded-lg shadow cursor-pointer">
+        <h2 class="font-semibold mb-3">stopPropagation</h2>
+        <p class="mb-2">Policy Card</p>
+        <button id="deleteBtn" class="bg-red-500 text-white px-4 py-2 rounded">
+            Delete Policy
+        </button>
+    </div>
+
+    <div id="claimRow" class="bg-white p-6 rounded-lg shadow cursor-pointer">
+        <h2 class="font-semibold mb-3">Claims Dashboard</h2>
+        <p class="mb-2">Claim #101</p>
+        <button id="approveBtn" class="bg-purple-500 text-white px-4 py-2 rounded">
+            Approve Claim
+        </button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
