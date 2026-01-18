@@ -9,8 +9,6 @@ const loadFromStorage = () =>
 
 const randomBalance = () =>
   Math.floor(Math.random() * 40000) + 10000;
-
-/* ------------------ Fetch Accounts ------------------ */
 async function fetchAccounts() {
   document.getElementById("loader").classList.remove("hidden");
 
@@ -70,7 +68,7 @@ function render(list = accounts) {
   calcTotal();
 }
 
-/* ------------------ Search & Filter ------------------ */
+/* Search & Filter  */
 document.getElementById("searchInput").addEventListener("input", e => {
   const val = e.target.value.toLowerCase();
   render(accounts.filter(a => a.name.toLowerCase().includes(val)));
@@ -89,7 +87,7 @@ function populateBranches() {
   );
 }
 
-/* ------------------ Transactions ------------------ */
+/*Transactions*/
 function deposit(id) {
   const amt = Number(prompt("Enter deposit amount"));
   if (!amt) return;
@@ -125,7 +123,7 @@ function withdraw(id) {
   render();
 }
 
-/* ------------------ History ------------------ */
+/*History  */
 function showHistory(id) {
   const acc = accounts.find(a => a.id === id);
   const list = document.getElementById("historyList");
@@ -145,7 +143,7 @@ function closeHistory() {
   document.getElementById("historyModal").classList.add("hidden");
 }
 
-/* ------------------ Create & Delete ------------------ */
+/* Create & Delete */
 document.getElementById("createBtn").onclick = async () => {
   const name = newName.value;
   const email = newEmail.value;
@@ -179,7 +177,7 @@ function removeAccount(id) {
   render();
 }
 
-/* ------------------ Sort & Reduce ------------------ */
+/*  Sort & Reduce */
 document.getElementById("sortBtn").onclick = () => {
   accounts.sort((a, b) => b.balance - a.balance);
   render();
@@ -190,6 +188,7 @@ function calcTotal() {
   document.getElementById("totalBalance").innerText = total;
 }
 
-/* ------------------ Init ------------------ */
+/* Init */
 const stored = loadFromStorage();
 stored ? (accounts = stored, populateBranches(), render()) : fetchAccounts();
+
