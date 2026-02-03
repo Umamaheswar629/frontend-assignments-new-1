@@ -1,0 +1,14 @@
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\obj\Debug\net8.0\Day-3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\obj\Debug\net8.0\Day-3.AssemblyInfoInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\obj\Debug\net8.0\Day-3.AssemblyInfo.cs
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\obj\Debug\net8.0\Day-3.csproj.CoreCompileInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\bin\Debug\net8.0\Day-3.exe
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\bin\Debug\net8.0\Day-3.deps.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\bin\Debug\net8.0\Day-3.runtimeconfig.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\bin\Debug\net8.0\Day-3.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\bin\Debug\net8.0\Day-3.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\obj\Debug\net8.0\Day-3.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\obj\Debug\net8.0\refint\Day-3.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\obj\Debug\net8.0\Day-3.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\obj\Debug\net8.0\Day-3.genruntimeconfig.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Day-3\Day-3\obj\Debug\net8.0\ref\Day-3.dll
