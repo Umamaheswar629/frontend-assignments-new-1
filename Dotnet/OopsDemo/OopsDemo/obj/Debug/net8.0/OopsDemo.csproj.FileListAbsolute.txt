@@ -1,0 +1,14 @@
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\bin\Debug\net8.0\OopsDemo.exe
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\bin\Debug\net8.0\OopsDemo.deps.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\bin\Debug\net8.0\OopsDemo.runtimeconfig.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\bin\Debug\net8.0\OopsDemo.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\bin\Debug\net8.0\OopsDemo.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.AssemblyInfoInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.AssemblyInfo.cs
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.csproj.CoreCompileInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\obj\Debug\net8.0\refint\OopsDemo.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\obj\Debug\net8.0\OopsDemo.genruntimeconfig.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\OopsDemo\OopsDemo\obj\Debug\net8.0\ref\OopsDemo.dll

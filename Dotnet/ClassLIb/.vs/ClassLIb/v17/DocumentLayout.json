@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\ClassLIb\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F7A8A367-1AFE-4005-A55C-F31B114CB8D8}|Calculator\\Calculator.csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\classlib\\calculator\\mymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F7A8A367-1AFE-4005-A55C-F31B114CB8D8}|Calculator\\Calculator.csproj|solutionrelative:calculator\\mymath.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B9025B-4730-4267-8E28-34E99523C485}|ConsumerProject\\ConsumerProject.csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\classlib\\consumerproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1B9025B-4730-4267-8E28-34E99523C485}|ConsumerProject\\ConsumerProject.csproj|solutionrelative:consumerproject\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1B9025B-4730-4267-8E28-34E99523C485}|ConsumerProject\\ConsumerProject.csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\classlib\\consumerproject\\consumerproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{C1B9025B-4730-4267-8E28-34E99523C485}|ConsumerProject\\ConsumerProject.csproj|solutionrelative:consumerproject\\consumerproject.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ConsumerProject",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\ClassLIb\\ConsumerProject\\ConsumerProject.csproj",
+              "RelativeDocumentMoniker": "ConsumerProject\\ConsumerProject.csproj",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\ClassLIb\\ConsumerProject\\ConsumerProject.csproj",
+              "RelativeToolTip": "ConsumerProject\\ConsumerProject.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2026-01-30T09:45:44.541Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\ClassLIb\\ConsumerProject\\Program.cs",
+              "RelativeDocumentMoniker": "ConsumerProject\\Program.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\ClassLIb\\ConsumerProject\\Program.cs",
+              "RelativeToolTip": "ConsumerProject\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T09:38:40.71Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Mymath.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\ClassLIb\\Calculator\\Mymath.cs",
+              "RelativeDocumentMoniker": "Calculator\\Mymath.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\ClassLIb\\Calculator\\Mymath.cs",
+              "RelativeToolTip": "Calculator\\Mymath.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-30T09:33:54.086Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

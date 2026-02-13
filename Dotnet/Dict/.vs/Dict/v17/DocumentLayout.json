@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\Dict\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FE903A54-274F-4E5D-9702-DBE9EC011076}|Dict\\Dict.csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\dict\\dict\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE903A54-274F-4E5D-9702-DBE9EC011076}|Dict\\Dict.csproj|solutionrelative:dict\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE903A54-274F-4E5D-9702-DBE9EC011076}|Dict\\Dict.csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\dict\\dict\\empdict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE903A54-274F-4E5D-9702-DBE9EC011076}|Dict\\Dict.csproj|solutionrelative:dict\\empdict.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE903A54-274F-4E5D-9702-DBE9EC011076}|Dict\\Dict.csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\dict\\dict\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE903A54-274F-4E5D-9702-DBE9EC011076}|Dict\\Dict.csproj|solutionrelative:dict\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Emp.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\Dict\\Dict\\Emp.cs",
+              "RelativeDocumentMoniker": "Dict\\Emp.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\Dict\\Dict\\Emp.cs",
+              "RelativeToolTip": "Dict\\Emp.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBYAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T09:03:04.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EmpDict.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\Dict\\Dict\\EmpDict.cs",
+              "RelativeDocumentMoniker": "Dict\\EmpDict.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\Dict\\Dict\\EmpDict.cs",
+              "RelativeToolTip": "Dict\\EmpDict.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAD4vxEAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T09:02:25.429Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\Dict\\Dict\\Program.cs",
+              "RelativeDocumentMoniker": "Dict\\Program.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\Dict\\Dict\\Program.cs",
+              "RelativeToolTip": "Dict\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-06T07:19:20.513Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

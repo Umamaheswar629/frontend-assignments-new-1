@@ -1,0 +1,14 @@
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\bin\Debug\net8.0\Dict.exe
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\bin\Debug\net8.0\Dict.deps.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\bin\Debug\net8.0\Dict.runtimeconfig.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\bin\Debug\net8.0\Dict.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\bin\Debug\net8.0\Dict.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\obj\Debug\net8.0\Dict.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\obj\Debug\net8.0\Dict.AssemblyInfoInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\obj\Debug\net8.0\Dict.AssemblyInfo.cs
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\obj\Debug\net8.0\Dict.csproj.CoreCompileInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\obj\Debug\net8.0\Dict.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\obj\Debug\net8.0\refint\Dict.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\obj\Debug\net8.0\Dict.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\obj\Debug\net8.0\Dict.genruntimeconfig.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Dict\Dict\obj\Debug\net8.0\ref\Dict.dll

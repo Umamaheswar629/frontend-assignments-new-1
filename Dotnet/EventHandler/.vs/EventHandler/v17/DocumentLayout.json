@@ -1,0 +1,92 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\EventHandler\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{909435BE-FE71-425B-AF74-F6A72258BFAF}|EventHandler\\EventHandler.csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\eventhandler\\eventhandler\\reactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909435BE-FE71-425B-AF74-F6A72258BFAF}|EventHandler\\EventHandler.csproj|solutionrelative:eventhandler\\reactor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909435BE-FE71-425B-AF74-F6A72258BFAF}|EventHandler\\EventHandler.csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\eventhandler\\eventhandler\\meltdowneventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909435BE-FE71-425B-AF74-F6A72258BFAF}|EventHandler\\EventHandler.csproj|solutionrelative:eventhandler\\meltdowneventargs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909435BE-FE71-425B-AF74-F6A72258BFAF}|EventHandler\\EventHandler.csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\eventhandler\\eventhandler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909435BE-FE71-425B-AF74-F6A72258BFAF}|EventHandler\\EventHandler.csproj|solutionrelative:eventhandler\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{909435BE-FE71-425B-AF74-F6A72258BFAF}|EventHandler\\EventHandler.csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\eventhandler\\eventhandler\\reactormonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{909435BE-FE71-425B-AF74-F6A72258BFAF}|EventHandler\\EventHandler.csproj|solutionrelative:eventhandler\\reactormonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ReactorMonitor.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\EventHandler\\EventHandler\\ReactorMonitor.cs",
+              "RelativeDocumentMoniker": "EventHandler\\ReactorMonitor.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\EventHandler\\EventHandler\\ReactorMonitor.cs",
+              "RelativeToolTip": "EventHandler\\ReactorMonitor.cs",
+              "ViewState": "AgIAAAIAAAAAAAAAAAAxwBAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T05:23:16.581Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MeltdownEventArgs.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\EventHandler\\EventHandler\\MeltdownEventArgs.cs",
+              "RelativeDocumentMoniker": "EventHandler\\MeltdownEventArgs.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\EventHandler\\EventHandler\\MeltdownEventArgs.cs",
+              "RelativeToolTip": "EventHandler\\MeltdownEventArgs.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T05:22:50.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Reactor.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\EventHandler\\EventHandler\\Reactor.cs",
+              "RelativeDocumentMoniker": "EventHandler\\Reactor.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\EventHandler\\EventHandler\\Reactor.cs",
+              "RelativeToolTip": "EventHandler\\Reactor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T05:22:19.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\EventHandler\\EventHandler\\Program.cs",
+              "RelativeDocumentMoniker": "EventHandler\\Program.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\EventHandler\\EventHandler\\Program.cs",
+              "RelativeToolTip": "EventHandler\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-09T05:13:59.077Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\oopsDemo(Comparable)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4854139F-F3BE-4210-89C4-05CF2A1C40B5}|oopsDemo(Comparable)\\oopsDemo(Comparable).csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\oopsdemo(comparable)\\oopsdemo(comparable)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4854139F-F3BE-4210-89C4-05CF2A1C40B5}|oopsDemo(Comparable)\\oopsDemo(Comparable).csproj|solutionrelative:oopsdemo(comparable)\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4854139F-F3BE-4210-89C4-05CF2A1C40B5}|oopsDemo(Comparable)\\oopsDemo(Comparable).csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\oopsdemo(comparable)\\oopsdemo(comparable)\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4854139F-F3BE-4210-89C4-05CF2A1C40B5}|oopsDemo(Comparable)\\oopsDemo(Comparable).csproj|solutionrelative:oopsdemo(comparable)\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4854139F-F3BE-4210-89C4-05CF2A1C40B5}|oopsDemo(Comparable)\\oopsDemo(Comparable).csproj|c:\\users\\umama\\onedrive\\desktop\\backendassignments\\oopsdemo(comparable)\\oopsdemo(comparable)\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4854139F-F3BE-4210-89C4-05CF2A1C40B5}|oopsDemo(Comparable)\\oopsDemo(Comparable).csproj|solutionrelative:oopsdemo(comparable)\\emp.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\oopsDemo(Comparable)\\oopsDemo(Comparable)\\Class1.cs",
+              "RelativeDocumentMoniker": "oopsDemo(Comparable)\\Class1.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\oopsDemo(Comparable)\\oopsDemo(Comparable)\\Class1.cs",
+              "RelativeToolTip": "oopsDemo(Comparable)\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T09:50:34.086Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Emp.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\oopsDemo(Comparable)\\oopsDemo(Comparable)\\Emp.cs",
+              "RelativeDocumentMoniker": "oopsDemo(Comparable)\\Emp.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\oopsDemo(Comparable)\\oopsDemo(Comparable)\\Emp.cs",
+              "RelativeToolTip": "oopsDemo(Comparable)\\Emp.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAswDcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:49:17.058Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\oopsDemo(Comparable)\\oopsDemo(Comparable)\\Program.cs",
+              "RelativeDocumentMoniker": "oopsDemo(Comparable)\\Program.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendAssignments\\oopsDemo(Comparable)\\oopsDemo(Comparable)\\Program.cs*",
+              "RelativeToolTip": "oopsDemo(Comparable)\\Program.cs*",
+              "ViewState": "AgIAABYAAAAAAAAAAAAQwB0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T08:47:07.055Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

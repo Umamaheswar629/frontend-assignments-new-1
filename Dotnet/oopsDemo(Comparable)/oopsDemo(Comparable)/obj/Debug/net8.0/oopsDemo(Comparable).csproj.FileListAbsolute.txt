@@ -1,0 +1,14 @@
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\bin\Debug\net8.0\oopsDemo(Comparable).exe
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\bin\Debug\net8.0\oopsDemo(Comparable).deps.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\bin\Debug\net8.0\oopsDemo(Comparable).runtimeconfig.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\bin\Debug\net8.0\oopsDemo(Comparable).dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\bin\Debug\net8.0\oopsDemo(Comparable).pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\obj\Debug\net8.0\oopsDemo(Comparable).GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\obj\Debug\net8.0\oopsDemo(Comparable).AssemblyInfoInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\obj\Debug\net8.0\oopsDemo(Comparable).AssemblyInfo.cs
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\obj\Debug\net8.0\oopsDemo(Comparable).csproj.CoreCompileInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\obj\Debug\net8.0\oopsDemo(Comparable).dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\obj\Debug\net8.0\refint\oopsDemo(Comparable).dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\obj\Debug\net8.0\oopsDemo(Comparable).pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\obj\Debug\net8.0\oopsDemo(Comparable).genruntimeconfig.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oopsDemo(Comparable)\oopsDemo(Comparable)\obj\Debug\net8.0\ref\oopsDemo(Comparable).dll

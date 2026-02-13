@@ -1,0 +1,14 @@
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\bin\Debug\net8.0\Week5.exe
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\bin\Debug\net8.0\Week5.deps.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\bin\Debug\net8.0\Week5.runtimeconfig.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\bin\Debug\net8.0\Week5.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\bin\Debug\net8.0\Week5.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\obj\Debug\net8.0\Week5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\obj\Debug\net8.0\Week5.AssemblyInfoInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\obj\Debug\net8.0\Week5.AssemblyInfo.cs
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\obj\Debug\net8.0\Week5.csproj.CoreCompileInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\obj\Debug\net8.0\Week5.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\obj\Debug\net8.0\refint\Week5.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\obj\Debug\net8.0\Week5.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\obj\Debug\net8.0\Week5.genruntimeconfig.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\Week5\Week5\obj\Debug\net8.0\ref\Week5.dll

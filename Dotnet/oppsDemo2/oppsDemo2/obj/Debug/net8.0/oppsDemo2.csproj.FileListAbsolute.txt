@@ -1,0 +1,14 @@
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\bin\Debug\net8.0\oppsDemo2.exe
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\bin\Debug\net8.0\oppsDemo2.deps.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\bin\Debug\net8.0\oppsDemo2.runtimeconfig.json
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\bin\Debug\net8.0\oppsDemo2.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\bin\Debug\net8.0\oppsDemo2.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\obj\Debug\net8.0\oppsDemo2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\obj\Debug\net8.0\oppsDemo2.AssemblyInfoInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\obj\Debug\net8.0\oppsDemo2.AssemblyInfo.cs
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\obj\Debug\net8.0\oppsDemo2.csproj.CoreCompileInputs.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\obj\Debug\net8.0\oppsDemo2.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\obj\Debug\net8.0\refint\oppsDemo2.dll
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\obj\Debug\net8.0\oppsDemo2.pdb
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\obj\Debug\net8.0\oppsDemo2.genruntimeconfig.cache
+C:\Users\umama\OneDrive\Desktop\BackendAssignments\oppsDemo2\oppsDemo2\obj\Debug\net8.0\ref\oppsDemo2.dll
