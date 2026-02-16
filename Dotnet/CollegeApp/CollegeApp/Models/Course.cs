@@ -16,5 +16,6 @@ namespace CollegeApp.Models
 
         // Navigation Property
         public ICollection<Student>? Students { get; set; }
+
     }
 }

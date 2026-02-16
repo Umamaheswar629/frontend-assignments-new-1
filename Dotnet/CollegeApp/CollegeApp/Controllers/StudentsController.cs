@@ -40,7 +40,25 @@ namespace CollegeApp.Controllers
 
             return student;
         }
+        // EXTRA API:Students grouped by Course Name
+        [HttpGet("Group-by-Category")]
+        public async Task<IActionResult> GetStudentsGroupedByCourse()
+        {
 
+            return Ok(await _context.Students
+                .Include(s => s.Course)
+                .GroupBy(s => s.Course!.CourseName)
+                .Select(g => new
+                {
+                    CourseName = g.Key,
+                    Students = g.Select(s => new
+                    {
+                        s.StudentId,
+                        s.StudentName,
+                        s.Age
+                    }).ToList()
+                }).ToListAsync());
+        }
         // PUT: api/Students/5
         // To protect from overposting attacks, see https://go.microsoft.com/fwlink/?linkid=2123754
         [HttpPut("{id}")]

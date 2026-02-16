@@ -26,6 +26,8 @@ namespace CollegeApp.Controllers
         {
             return await _context.Courses.ToListAsync();
         }
+       
+
 
         // GET: api/Courses/5
         [HttpGet("{id}")]

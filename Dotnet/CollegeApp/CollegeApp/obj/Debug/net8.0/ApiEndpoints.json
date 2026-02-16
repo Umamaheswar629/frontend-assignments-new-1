@@ -218,6 +218,16 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "CollegeApp.Controllers.StudentsController",
+    "Method": "GetStudentsGroupedByCourse",
+    "RelativePath": "api/Students/Group-by-Category",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "CollegeApp.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",

@@ -375,6 +375,18 @@
         }
       }
     },
+    "/api/Students/Group-by-Category": {
+      "get": {
+        "tags": [
+          "Students"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
     "/WeatherForecast": {
       "get": {
         "tags": [
@@ -450,7 +462,6 @@
       },
       "Student": {
         "required": [
-          "cousrseId",
           "studentName"
         ],
         "type": "object",
@@ -460,8 +471,7 @@
             "format": "int32"
           },
           "studentName": {
-            "maxLength": 40,
-            "minLength": 0,
+            "minLength": 1,
             "type": "string"
           },
           "age": {
@@ -470,7 +480,7 @@
             "type": "integer",
             "format": "int32"
           },
-          "cousrseId": {
+          "courseId": {
             "type": "integer",
             "format": "int32"
           }
