@@ -1,0 +1,6 @@
+@ProductsScaff_HostAddress = http://localhost:5087
+
+GET {{ProductsScaff_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
