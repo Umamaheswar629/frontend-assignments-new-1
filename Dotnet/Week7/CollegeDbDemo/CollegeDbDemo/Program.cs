@@ -1,4 +1,7 @@
 
+using CollegeDbDemo.Models;
+using Microsoft.EntityFrameworkCore;
+
 namespace CollegeDbDemo
 {
     public class Program
@@ -13,6 +16,13 @@ namespace CollegeDbDemo
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+            builder.Services.AddDbContext<collegeContext>(opt =>
+            {
+                opt.UseSqlServer(
+                    builder.Configuration.GetConnectionString("CollegeDb")
+                );
+            });
+
 
             var app = builder.Build();
 

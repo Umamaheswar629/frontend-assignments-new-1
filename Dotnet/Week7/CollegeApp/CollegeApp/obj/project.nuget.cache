@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "N4JQMJLsmK0=",
+  "dgSpecHash": "pBoRODcmTwI=",
   "success": true,
-  "projectFilePath": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\CollegeApp.csproj",
+  "projectFilePath": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\CollegeApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umama\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\umama\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

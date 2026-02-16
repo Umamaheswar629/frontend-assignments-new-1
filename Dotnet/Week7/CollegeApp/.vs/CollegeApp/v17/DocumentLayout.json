@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\",
+  "WorkspaceRootPath": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\collegeapp\\collegeapp\\models\\colleagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\models\\colleagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\collegeapp\\collegeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\collegeapp\\collegeapp\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\week7\\collegeapp\\collegeapp\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\controllers\\studentscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\collegeapp\\collegeapp\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\week7\\collegeapp\\collegeapp\\models\\colleagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\models\\colleagecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\collegeapp\\collegeapp\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\week7\\collegeapp\\collegeapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\week7\\collegeapp\\collegeapp\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\collegeapp\\collegeapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\week7\\collegeapp\\collegeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|c:\\users\\umama\\onedrive\\desktop\\assignments\\dotnet\\week7\\collegeapp\\collegeapp\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CE899DEF-71EB-4F93-ABB3-95A9B54A1091}|CollegeApp\\CollegeApp.csproj|solutionrelative:collegeapp\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +34,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -42,50 +42,48 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "CoursesController.cs",
-              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Controllers\\CoursesController.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Controllers\\CoursesController.cs",
-              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Controllers\\CoursesController.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Controllers\\CoursesController.cs",
               "RelativeToolTip": "CollegeApp\\Controllers\\CoursesController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:32:43.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:32:43.136Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "StudentsController.cs",
-              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Controllers\\StudentsController.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Controllers\\StudentsController.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Controllers\\StudentsController.cs",
-              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Controllers\\StudentsController.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Controllers\\StudentsController.cs",
               "RelativeToolTip": "CollegeApp\\Controllers\\StudentsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAADwvzwAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T05:31:50.857Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Program.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Program.cs",
-              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Program.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Program.cs",
               "RelativeToolTip": "CollegeApp\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAA/wA8AAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:28:42.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:28:42.99Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ColleageContext.cs",
-              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Models\\ColleageContext.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Models\\ColleageContext.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Models\\ColleageContext.cs",
-              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Models\\ColleageContext.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Models\\ColleageContext.cs",
               "RelativeToolTip": "CollegeApp\\Models\\ColleageContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -94,26 +92,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
-              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Models\\Student.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Models\\Student.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Models\\Student.cs",
-              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Models\\Student.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Models\\Student.cs",
               "RelativeToolTip": "CollegeApp\\Models\\Student.cs",
-              "ViewState": "AgIAABEAAAAAAAAAAAAgwAsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAkwBEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T05:05:06.872Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Course.cs",
-              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Models\\Course.cs",
+              "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Models\\Course.cs",
               "RelativeDocumentMoniker": "CollegeApp\\Models\\Course.cs",
-              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Models\\Course.cs",
+              "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\Week7\\CollegeApp\\CollegeApp\\Models\\Course.cs",
               "RelativeToolTip": "CollegeApp\\Models\\Course.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAQAAAAAAAAAAAA7wA0AAABRAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T05:01:18.488Z",
               "EditorCaption": ""
