@@ -50,8 +50,7 @@
               "RelativeToolTip": "CollegeApp\\Controllers\\CoursesController.cs",
               "ViewState": "AgIAADEAAAAAAAAAAAAkwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:32:43.136Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:32:43.136Z"
             },
             {
               "$type": "Document",
@@ -63,8 +62,7 @@
               "RelativeToolTip": "CollegeApp\\Controllers\\StudentsController.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:31:50.857Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:31:50.857Z"
             },
             {
               "$type": "Document",
@@ -76,8 +74,7 @@
               "RelativeToolTip": "CollegeApp\\Program.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAADwvxIAAAAmAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:28:42.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:28:42.99Z"
             },
             {
               "$type": "Document",
@@ -89,8 +86,7 @@
               "RelativeToolTip": "CollegeApp\\Models\\ColleageContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:24:25.397Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:24:25.397Z"
             },
             {
               "$type": "Document",
@@ -100,7 +96,7 @@
               "RelativeDocumentMoniker": "CollegeApp\\Models\\Student.cs",
               "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\CollegeApp\\CollegeApp\\Models\\Student.cs",
               "RelativeToolTip": "CollegeApp\\Models\\Student.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAiwBIAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAcwBAAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-16T05:05:06.872Z",
               "EditorCaption": ""
@@ -115,8 +111,7 @@
               "RelativeToolTip": "CollegeApp\\Models\\Course.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-16T05:01:18.488Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-16T05:01:18.488Z"
             }
           ]
         }

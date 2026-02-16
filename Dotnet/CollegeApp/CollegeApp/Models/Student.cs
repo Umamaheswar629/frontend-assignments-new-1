@@ -15,7 +15,5 @@ namespace CollegeApp.Models
         [ForeignKey("Course")]
         //foriegn key
         public int CousrseId { get; set; }
-        //Navigation property
-        //public Course? Course { get; set; }
     }
 }
