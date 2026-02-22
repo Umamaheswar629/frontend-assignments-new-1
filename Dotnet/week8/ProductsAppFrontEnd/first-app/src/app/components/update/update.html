@@ -1,0 +1,199 @@
+<!-- Page header -->
+<div class="flex items-center justify-between mb-6">
+  <h2 class="text-2xl font-bold text-slate-800">✏️ Update Product</h2>
+  <a
+    routerLink="/view"
+    class="text-sm text-slate-500 border border-slate-300 bg-white hover:bg-slate-50 px-4 py-2 rounded-lg transition-colors">
+    ← Back
+  </a>
+</div>
+
+<!-- ID search — shown only if no valid ID in the URL -->
+@if (id() === 0) {
+  <div class="bg-white rounded-xl shadow p-6 max-w-2xl mb-4">
+    <p class="text-sm text-slate-600 mb-3">
+      Enter the ID of the product you want to edit:
+    </p>
+
+    <div class="flex gap-3">
+      <input
+        type="number"
+        #sid
+        placeholder="e.g. 3"
+        class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 w-40" />
+
+      <button
+        (click)="onSearch(sid.value)"
+        class="bg-blue-600 hover:bg-blue-700 text-white text-sm font-semibold px-4 py-2 rounded-lg transition-colors">
+        Load Product
+      </button>
+    </div>
+
+    @if (itemService.error()) {
+      <div
+        class="bg-red-50 border border-red-200 text-red-700 rounded-lg px-4 py-3 mt-3 text-sm">
+        ⚠️ {{ itemService.error() }}
+      </div>
+    }
+  </div>
+}
+
+<!-- Edit form — shown once we have an ID -->
+@if (id() !== 0) {
+  <div class="bg-white rounded-xl shadow p-6 max-w-2xl">
+
+    <!-- Loading -->
+    @if (itemService.loading()) {
+      <div class="text-center py-8 text-slate-500">
+        <div
+          class="w-8 h-8 border-4 border-slate-200 border-t-blue-500 rounded-full animate-spin mx-auto mb-3">
+        </div>
+        <p>Loading product #{{ id() }}...</p>
+      </div>
+    }
+
+    @if (!itemService.loading()) {
+
+      <!-- Alerts -->
+      @if (success()) {
+        <div
+          class="bg-green-50 border border-green-200 text-green-700 rounded-lg px-4 py-3 mb-5 text-sm">
+          {{ success() }}
+        </div>
+      }
+
+      @if (itemService.error()) {
+        <div
+          class="bg-red-50 border border-red-200 text-red-700 rounded-lg px-4 py-3 mb-5 text-sm">
+          ⚠️ {{ itemService.error() }}
+        </div>
+      }
+
+      <p class="text-xs text-slate-400 mb-5">
+        Editing Product #{{ id() }}
+      </p>
+
+      <form (ngSubmit)="onSubmit()">
+
+        <!-- Row 1: Name + Category -->
+        <div class="grid grid-cols-2 gap-4 mb-4">
+
+          <div class="flex flex-col gap-1">
+            <label class="text-sm font-semibold text-slate-700">
+              Product Name <span class="text-red-500">*</span>
+            </label>
+            <input
+              type="text"
+              [ngModel]="name()"
+              (ngModelChange)="name.set($event)"
+              name="name"
+              class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
+          </div>
+
+          <div class="flex flex-col gap-1">
+            <label class="text-sm font-semibold text-slate-700">
+              Category <span class="text-red-500">*</span>
+            </label>
+            <select
+              [ngModel]="category()"
+              (ngModelChange)="category.set($event)"
+              name="category"
+              class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 bg-white">
+              <option value="" disabled>Select a category</option>
+              <option>Electronics</option>
+              <option>Clothing</option>
+              <option>Furniture</option>
+              <option>Food & Beverage</option>
+              <option>Stationery</option>
+              <option>Other</option>
+            </select>
+          </div>
+
+        </div>
+
+        <!-- Row 2: Price + Quantity -->
+        <div class="grid grid-cols-2 gap-4 mb-4">
+
+          <div class="flex flex-col gap-1">
+            <label class="text-sm font-semibold text-slate-700">
+              Price (₹) <span class="text-red-500">*</span>
+            </label>
+            <input
+              type="number"
+              min="0"
+              step="0.01"
+              [ngModel]="price()"
+              (ngModelChange)="price.set($event)"
+              name="price"
+              class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
+          </div>
+
+          <div class="flex flex-col gap-1">
+            <label class="text-sm font-semibold text-slate-700">
+              Quantity <span class="text-red-500">*</span>
+            </label>
+            <input
+              type="number"
+              min="0"
+              [ngModel]="quantity()"
+              (ngModelChange)="quantity.set($event)"
+              name="quantity"
+              class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
+          </div>
+
+        </div>
+
+        <!-- Status -->
+        <div class="flex flex-col gap-2 mb-4">
+          <label class="text-sm font-semibold text-slate-700">Status</label>
+          <div class="flex gap-6">
+            @for (s of ['In Stock', 'Out of Stock', 'Discontinued']; track s) {
+              <label
+                class="flex items-center gap-2 text-sm text-slate-700 cursor-pointer">
+                <input
+                  type="radio"
+                  [value]="s"
+                  [ngModel]="status()"
+                  (ngModelChange)="status.set($event)"
+                  name="status"
+                  class="accent-blue-600" />
+                {{ s }}
+              </label>
+            }
+          </div>
+        </div>
+
+        <!-- Description -->
+        <div class="flex flex-col gap-1 mb-6">
+          <label class="text-sm font-semibold text-slate-700">
+            Description <span class="text-red-500">*</span>
+          </label>
+          <textarea
+            rows="3"
+            [ngModel]="description()"
+            (ngModelChange)="description.set($event)"
+            name="description"
+            class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none">
+          </textarea>
+        </div>
+
+        <!-- Buttons -->
+        <div class="flex justify-end gap-3">
+          <a
+            routerLink="/view"
+            class="border border-slate-300 bg-slate-50 hover:bg-slate-100 text-slate-600 text-sm font-semibold px-5 py-2 rounded-lg transition-colors">
+            Cancel
+          </a>
+
+          <button
+            type="submit"
+            [disabled]="itemService.loading()"
+            class="bg-blue-600 hover:bg-blue-700 disabled:opacity-60 text-white text-sm font-semibold px-5 py-2 rounded-lg transition-colors">
+            {{ itemService.loading() ? 'Saving...' : 'Save Changes' }}
+          </button>
+        </div>
+
+      </form>
+    }
+  </div>
+}

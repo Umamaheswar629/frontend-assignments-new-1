@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\SeedDemo.csproj": {}
+    "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\SeedDemo\\SeedDemo\\SeedDemo.csproj": {}
   },
   "projects": {
-    "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\SeedDemo.csproj": {
+    "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\SeedDemo\\SeedDemo\\SeedDemo.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\SeedDemo.csproj",
+        "projectUniqueName": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\SeedDemo\\SeedDemo\\SeedDemo.csproj",
         "projectName": "SeedDemo",
-        "projectPath": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\SeedDemo.csproj",
+        "projectPath": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\SeedDemo\\SeedDemo\\SeedDemo.csproj",
         "packagesPath": "C:\\Users\\umama\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\obj\\",
+        "outputPath": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\SeedDemo\\SeedDemo\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

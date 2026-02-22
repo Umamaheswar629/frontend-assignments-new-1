@@ -1,0 +1,156 @@
+<!-- Page header -->
+<div class="flex items-center justify-between mb-6">
+  <h2 class="text-2xl font-bold text-slate-800">➕ Add New Product</h2>
+  <a
+    routerLink="/view"
+    class="text-sm text-slate-500 border border-slate-300 bg-white hover:bg-slate-50 px-4 py-2 rounded-lg transition-colors">
+    ← Back
+  </a>
+</div>
+
+<!-- Card -->
+<div class="bg-white rounded-xl shadow p-6 max-w-2xl">
+
+  <!-- Success alert -->
+  @if (success()) {
+    <div
+      class="bg-green-50 border border-green-200 text-green-700 rounded-lg px-4 py-3 mb-5 text-sm">
+      {{ success() }}
+    </div>
+  }
+
+  <!-- Error alert -->
+  @if (itemService.error()) {
+    <div
+      class="bg-red-50 border border-red-200 text-red-700 rounded-lg px-4 py-3 mb-5 text-sm">
+      ⚠️ {{ itemService.error() }}
+    </div>
+  }
+
+  <form (ngSubmit)="onSubmit()">
+
+    <!-- Row 1: Name + Category -->
+    <div class="grid grid-cols-2 gap-4 mb-4">
+
+      <div class="flex flex-col gap-1">
+        <label class="text-sm font-semibold text-slate-700">
+          Product Name <span class="text-red-500">*</span>
+        </label>
+        <input
+          type="text"
+          placeholder="e.g. Wireless Mouse"
+          [ngModel]="name()"
+          (ngModelChange)="name.set($event)"
+          name="name"
+          class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
+      </div>
+
+      <div class="flex flex-col gap-1">
+        <label class="text-sm font-semibold text-slate-700">
+          Category <span class="text-red-500">*</span>
+        </label>
+        <select
+          [ngModel]="category()"
+          (ngModelChange)="category.set($event)"
+          name="category"
+          class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 bg-white">
+          <option value="" disabled>Select a category</option>
+          <option>Electronics</option>
+          <option>Clothing</option>
+          <option>Furniture</option>
+          <option>Food & Beverage</option>
+          <option>Stationery</option>
+          <option>Other</option>
+        </select>
+      </div>
+
+    </div>
+
+    <!-- Row 2: Price + Quantity -->
+    <div class="grid grid-cols-2 gap-4 mb-4">
+
+      <div class="flex flex-col gap-1">
+        <label class="text-sm font-semibold text-slate-700">
+          Price (₹) <span class="text-red-500">*</span>
+        </label>
+        <input
+          type="number"
+          placeholder="e.g. 499.99"
+          min="0"
+          step="0.01"
+          [ngModel]="price()"
+          (ngModelChange)="price.set($event)"
+          name="price"
+          class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
+      </div>
+
+      <div class="flex flex-col gap-1">
+        <label class="text-sm font-semibold text-slate-700">
+          Quantity <span class="text-red-500">*</span>
+        </label>
+        <input
+          type="number"
+          placeholder="e.g. 50"
+          min="0"
+          [ngModel]="quantity()"
+          (ngModelChange)="quantity.set($event)"
+          name="quantity"
+          class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100" />
+      </div>
+
+    </div>
+
+    <!-- Status -->
+    <div class="flex flex-col gap-2 mb-4">
+      <label class="text-sm font-semibold text-slate-700">Status</label>
+      <div class="flex gap-6">
+        @for (s of ['In Stock', 'Out of Stock', 'Discontinued']; track s) {
+          <label
+            class="flex items-center gap-2 text-sm text-slate-700 cursor-pointer">
+            <input
+              type="radio"
+              [value]="s"
+              [ngModel]="status()"
+              (ngModelChange)="status.set($event)"
+              name="status"
+              class="accent-blue-600" />
+            {{ s }}
+          </label>
+        }
+      </div>
+    </div>
+
+    <!-- Description -->
+    <div class="flex flex-col gap-1 mb-6">
+      <label class="text-sm font-semibold text-slate-700">
+        Description <span class="text-red-500">*</span>
+      </label>
+      <textarea
+        placeholder="Write a short description..."
+        rows="3"
+        [ngModel]="description()"
+        (ngModelChange)="description.set($event)"
+        name="description"
+        class="border border-slate-300 rounded-lg px-3 py-2 text-sm outline-none focus:border-blue-500 focus:ring-2 focus:ring-blue-100 resize-none">
+      </textarea>
+    </div>
+
+    <!-- Buttons -->
+    <div class="flex justify-end gap-3">
+      <button
+        type="button"
+        (click)="onReset()"
+        class="border border-slate-300 bg-slate-50 hover:bg-slate-100 text-slate-600 text-sm font-semibold px-5 py-2 rounded-lg transition-colors">
+        Reset
+      </button>
+
+      <button
+        type="submit"
+        [disabled]="itemService.loading()"
+        class="bg-blue-600 hover:bg-blue-700 disabled:opacity-60 text-white text-sm font-semibold px-5 py-2 rounded-lg transition-colors">
+        {{ itemService.loading() ? 'Saving...' : 'Create Product' }}
+      </button>
+    </div>
+
+  </form>
+</div>

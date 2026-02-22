@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{EFECC67C-F174-490B-BE02-2F69184FD6A8}|SeedDemo\\SeedDemo.csproj|c:\\users\\umama\\onedrive\\desktop\\backenddotnet\\seeddemo\\seeddemo\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EFECC67C-F174-490B-BE02-2F69184FD6A8}|SeedDemo\\SeedDemo.csproj|solutionrelative:seeddemo\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{EFECC67C-F174-490B-BE02-2F69184FD6A8}|SeedDemo\\SeedDemo.csproj|c:\\users\\umama\\onedrive\\desktop\\backenddotnet\\seeddemo\\seeddemo\\models\\coursecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EFECC67C-F174-490B-BE02-2F69184FD6A8}|SeedDemo\\SeedDemo.csproj|solutionrelative:seeddemo\\models\\coursecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EFECC67C-F174-490B-BE02-2F69184FD6A8}|SeedDemo\\SeedDemo.csproj|c:\\users\\umama\\onedrive\\desktop\\backenddotnet\\seeddemo\\seeddemo\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EFECC67C-F174-490B-BE02-2F69184FD6A8}|SeedDemo\\SeedDemo.csproj|solutionrelative:seeddemo\\controllers\\coursescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\Migrations\\20260217043537_SeedCourseData.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -34,17 +34,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CoursesController.cs",
               "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\Controllers\\CoursesController.cs",
               "RelativeDocumentMoniker": "SeedDemo\\Controllers\\CoursesController.cs",
               "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\Controllers\\CoursesController.cs",
               "RelativeToolTip": "SeedDemo\\Controllers\\CoursesController.cs",
-              "ViewState": "AgIAACAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T04:38:02.935Z",
               "EditorCaption": ""
@@ -89,18 +93,14 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "CourseContext.cs",
               "DocumentMoniker": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\Models\\CourseContext.cs",
               "RelativeDocumentMoniker": "SeedDemo\\Models\\CourseContext.cs",
               "ToolTip": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\Models\\CourseContext.cs",
               "RelativeToolTip": "SeedDemo\\Models\\CourseContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABNAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAgwA0AAABNAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-02-17T04:20:22.729Z",
               "EditorCaption": ""

@@ -1,0 +1,41 @@
+<header class="bg-slate-800 shadow-md sticky top-0 z-50">
+  <div class="max-w-5xl mx-auto px-6 py-3 flex items-center justify-between">
+    <!-- Brand -->
+    <div class="flex items-center gap-2">
+      <span class="text-2xl">📦</span>
+      <span class="text-white font-bold text-lg">Inventory App</span>
+    </div>
+
+    <!-- Nav links and user info -->
+    <div class="flex items-center gap-4">
+      @if (isLoggedIn()) {
+        <nav class="flex gap-2">
+          <a routerLink="/view" routerLinkActive="bg-blue-600 text-white"
+            class="flex items-center gap-1 px-4 py-2 rounded-lg text-slate-300 font-medium text-sm hover:bg-slate-700 hover:text-white transition-colors">
+            📋 View
+          </a>
+          @if (user().role === 'Admin' || user().role === 'Manager') {
+            <a routerLink="/create" routerLinkActive="bg-blue-600 text-white"
+              class="flex items-center gap-1 px-4 py-2 rounded-lg text-slate-300 font-medium text-sm hover:bg-slate-700 hover:text-white transition-colors">
+              ➕ Create
+            </a>
+            <a routerLink="/update/0" routerLinkActive="bg-blue-600 text-white"
+              class="flex items-center gap-1 px-4 py-2 rounded-lg text-slate-300 font-medium text-sm hover:bg-slate-700 hover:text-white transition-colors">
+              ✏️ Update
+            </a>
+          }
+          @if (user().role === 'Admin') {
+            <a routerLink="/delete" routerLinkActive="bg-blue-600 text-white"
+              class="flex items-center gap-1 px-4 py-2 rounded-lg text-slate-300 font-medium text-sm hover:bg-slate-700 hover:text-white transition-colors">
+              🗑️ Delete
+            </a>
+          }
+        </nav>
+        <div class="flex items-center gap-2">
+          <span class="text-slate-200 text-sm font-medium">{{ user().name }} <span class="text-xs text-slate-400">({{ user().role }})</span></span>
+          <button (click)="logout()" class="bg-slate-700 text-white px-3 py-1 rounded hover:bg-slate-600 text-xs">Logout</button>
+        </div>
+      }
+    </div>
+  </div>
+</header>

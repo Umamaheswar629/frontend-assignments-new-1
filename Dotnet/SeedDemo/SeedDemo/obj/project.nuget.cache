@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "J0QrcN1u1tM=",
+  "dgSpecHash": "QW6MS2BD7/0=",
   "success": true,
-  "projectFilePath": "C:\\Users\\umama\\OneDrive\\Desktop\\BackendDotNet\\SeedDemo\\SeedDemo\\SeedDemo.csproj",
+  "projectFilePath": "C:\\Users\\umama\\OneDrive\\Desktop\\Assignments\\Dotnet\\SeedDemo\\SeedDemo\\SeedDemo.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\umama\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\umama\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
